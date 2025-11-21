@@ -28,7 +28,7 @@ That's it! You're ready to go.
 ### What happens if git isn't initialized?
 You'll get a friendly error message: *"You haven't git init yet dumbass"*
 
-![Git Nacht Icon](assets/git-nacht.png | width=50px)
+<img src="assets/git-nacht.png" width="50px" alt="Git Nacht Icon">
 
 ## Keyboard Shortcut
 
