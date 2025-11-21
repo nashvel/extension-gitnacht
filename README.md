@@ -1,36 +1,40 @@
 # Git Nacht
 
-A sassy VSCode extension that adds all your files to git with one click.
+A sassy VSCode extension that stages all your files with one click. Perfect for lazy developers who hate typing `git add .` repeatedly.
 
 ## Features
 
-- 🌙 One-click `git add .` from the status bar
-- 🚨 Warns you if you haven't initialized git yet (with attitude)
-- 🎯 Works with any open workspace
+- One-click staging – Click the status bar button to instantly run `git add .`
+- Smart git detection – Warns you if you haven't initialized git yet (with attitude)
+- Works everywhere – Compatible with any VSCode workspace
 
 ## Installation
 
-1. Clone or download this repository
-2. Run `npm install` to install dependencies
-3. Press `F5` to open the extension in a new VSCode window
-4. Or package it with `vsce package` and install the `.vsix` file
+1. Open **VSCode**
+2. Go to **Extensions** (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for **"Git Nacht"**
+4. Click **Install**
+
+That's it! You're ready to go.
 
 ## Usage
 
 1. Open a project folder in VSCode
-2. Look for the "Git Nacht" button in the status bar (bottom right)
+2. Look for the **"Git Nacht"** button in the status bar (bottom right)
 3. Click it to stage all changes with `git add .`
-4. If you haven't initialized git, you'll get a friendly reminder
+4. See the success message confirming files are staged
+5. Commit your changes as usual
 
-## Development
+### What happens if git isn't initialized?
+You'll get a friendly error message: *"You haven't git init yet dumbass"*
 
-```bash
-npm install
-npm run compile
-npm run watch  # for development
-```
+![Git Nacht Icon](assets/git-nacht.png)
+
+## Keyboard Shortcut
+
+You can also run the command from the Command Palette (Ctrl+Shift+P / Cmd+Shift+P):
+- Search for **"Git Nacht: Add All"**
+- Press Enter
 
 ## License
-
-MIT
-# extension-gitnacht
+i dont have a license
