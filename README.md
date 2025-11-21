@@ -28,7 +28,7 @@ That's it! You're ready to go.
 ### What happens if git isn't initialized?
 You'll get a friendly error message: *"You haven't git init yet dumbass"*
 
-![Git Nacht Icon](assets/git-nacht.png)
+![Git Nacht Icon](assets/git-nacht.png | width=50px)
 
 ## Keyboard Shortcut
 
@@ -37,4 +37,5 @@ You can also run the command from the Command Palette (Ctrl+Shift+P / Cmd+Shift+
 - Press Enter
 
 ## License
-i dont have a license
+
+MIT - See LICENSE file for details

@@ -2,7 +2,7 @@
   "name": "git-nacht",
   "displayName": "Git Nacht",
   "description": "One-click git add . in your project root. Simple, fast, and sassy.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "assets/git-nacht.png",
   "publisher": "nacht",
   "repository": {
